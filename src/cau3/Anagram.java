@@ -24,6 +24,7 @@ public class Anagram {
             if (c1 == ' ') continue;
             if (!check(chars, k, c1)) {
                 chars[k] = c1;
+                k++;
             }
         }
         boolean check = true;
